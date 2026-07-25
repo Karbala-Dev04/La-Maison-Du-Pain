@@ -1,23 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 @import "tailwindcss";
 
-.nav-link .link{
-    position: relative;
+.font-playfair {
+    font-family: "Playfair Display", serif;
 }
-
-.nav-link .link::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    width: 0;
-    height: 2px;
-    background-color: #f8a538;
-    transition: width .3s ease;
-}
-
-.nav-link .link:hover::after{
-    width: 100%;
-
-}
-
-

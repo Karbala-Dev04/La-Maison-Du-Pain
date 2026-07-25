@@ -1,5 +1,6 @@
-import React from 'react'
-import logo from '../assets/Images/logo_maison_du_pain.png'
+import React from 'react';
+import logo from '../assets/Images/logo_maison_du_pain.png';
+import '../Styles/navbar.css';
 import { useState } from 'react';
 import { HiMiniBars3, HiMiniXMark } from "react-icons/hi2";
 
@@ -8,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className='sticky navbar z-50 top-0 bg-[#ffffff9f] flex justify-between items-center p-5 px-7 shadow-xl'>
+    <nav className='sticky navbar z-50 top-0 bg-[#ffffff9f] flex justify-between items-center py-3 px-7 shadow-xl'>
       
         <div className='flex gap-3'>
             <img src={logo} alt="logo" className='w-12 rounded-full object-cover' />
@@ -18,7 +19,7 @@ export default function Navbar() {
             </div>
         </div>
 
-        <button className="lg:hidden" onClick={() => setIsOpen(!isOpen)}>
+        <button className="lg:hidden cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <HiMiniXMark className="text-3xl"/> : <HiMiniBars3 className="text-3xl"/>}
         </button>
 

@@ -1,0 +1,4 @@
+.hero{
+    background: linear-gradient(rgba(247, 238, 228, 0.432), rgb(247, 205, 164)), url("../assets/Images/hero-pain-frais.png") center / cover ;
+    min-height: 100vh;
+}
