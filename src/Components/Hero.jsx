@@ -6,14 +6,14 @@ import { WiStars } from "react-icons/wi";
 
 export default function Hero() {
   return (
-    <div className='hero'>
+    <section className='hero'>
 
     <div className="container max-w-2xl m-auto py-10 px-7">
 
-      <p className='text-[#d18006] border font-serif border-amber-500 mb-8 bg-[#ffffffc0] max-w-95 lg:px-7 
-      py-1 rounded-2xl'> <WiStars className='text-2xl inline' /> ARTISAN BOULANGER DEPUIS 1998</p>
+      <p className='text-[#d18006] border font-serif border-amber-3n00 mb-8 bg-[#ffffffc0] max-w-95 lg:px-7 
+      rounded-2xl'> <WiStars className='text-2xl inline' /> ARTISAN BOULANGER DEPUIS 1998</p>
       <h2 className='text-5xl lg:text-7xl mb-8 font-playfair font-bold'>
-      Le goût authentique du <span className='text-[#cf9008] italic'>pain frais</span></h2>
+      Le goût authentique du <span className='text-[#a87507] italic'>pain frais</span></h2>
       <p className=' max-w-xl text-xl mb-7'>Chaque matin à Dakar, nos boulangers pétrissent à la main des farines nobles 
         pour vous offrir baguettes croustillantes, viennoiseries dorées et pâtisseries d'exception.</p>
 
@@ -43,6 +43,6 @@ export default function Hero() {
 
     </div>
 
-    </div>
+    </section>
   )
 }
