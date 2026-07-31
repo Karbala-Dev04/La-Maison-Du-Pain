@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import Services from './Components/Services'
 import Produits from './Components/Produits'
+import Offres from './Components/Offres'
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
     <Hero />
     <Services />
     <Produits/>
+    <Offres/>
     </>
 
   )
