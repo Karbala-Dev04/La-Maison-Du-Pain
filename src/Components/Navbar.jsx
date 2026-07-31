@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className='sticky navbar z-50 top-0 bg-[#ffffffe7] flex justify-between items-center py-2 px-7 shadow-xl'>
+    <nav className='sticky navbar z-50 top-0 bg-amber-50 flex justify-between items-center py-2 px-7 shadow-xl'>
       
         <div className='flex gap-3'>
             <img src={logo} alt="logo" className='w-12 rounded-full object-cover' />
