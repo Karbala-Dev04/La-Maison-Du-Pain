@@ -3,7 +3,7 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa6";
 
 export default function Offres() {
-    return (
+   return (
     <div className='bg-amber-950 py-10'>
 
         <div className='text-center p-5'>

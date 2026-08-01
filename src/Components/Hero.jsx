@@ -18,7 +18,7 @@ export default function Hero() {
         pour vous offrir baguettes croustillantes, viennoiseries dorées et pâtisseries d'exception.</p>
 
       <div className='btn mb-6 flex gap-3 flex-col lg:flex-row'>
-      <button className='bg-amber-700 rounded-full font-semibold px-4 py-2 cursor-pointer'>Commander maintenant <AiOutlineArrowRight className='text-[15px] inline' /> </button>
+      <button className='bg-amber-700 rounded-full font-semibold px-4 py-2 cursor-pointer'>Commander maintenant <AiOutlineArrowRight className='text-[15px] inline' /></button>
       <button className='bg-transparent rounded-full border-2 border-[#ffffff34]  px-4 py-2 font-semibold
       hover:bg-[#ffffff4f] hover:border-amber-500 cursor-pointer'>Voir nos produits</button>
       </div>

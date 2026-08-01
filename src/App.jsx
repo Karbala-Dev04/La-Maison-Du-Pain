@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import Services from './Components/Services'
 import Produits from './Components/Produits'
 import Offres from './Components/Offres'
+import Histoire from './Components/Histoire'
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
     <Services />
     <Produits/>
     <Offres/>
+    <Histoire/>
     </>
-
   )
 }
