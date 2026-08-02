@@ -18,15 +18,15 @@ export default function Hero() {
         pour vous offrir baguettes croustillantes, viennoiseries dorées et pâtisseries d'exception.</p>
 
       <div className='btn mb-6 flex gap-3 flex-col lg:flex-row'>
-      <button className='bg-amber-700 rounded-full font-semibold px-4 py-2 cursor-pointer'>Commander maintenant <AiOutlineArrowRight className='text-[15px] inline' /></button>
-      <button className='bg-transparent rounded-full border-2 border-[#ffffff34]  px-4 py-2 font-semibold
-      hover:bg-[#ffffff4f] hover:border-amber-500 cursor-pointer'>Voir nos produits</button>
+      <a href='#' className='bg-amber-900 rounded-full font-semibold px-4 py-3 cursor-pointer text-amber-50'>Commander maintenant <AiOutlineArrowRight className='text-[15px] inline'/></a>
+      <a href='#' className='bg-transparent rounded-full border-2 transition-all duration-500 ease-in-out border-[#ffffff34]  px-4 py-3 font-semibold
+      hover:bg-[#ffffff4f] hover:border-amber-500 cursor-pointer'>Voir nos produits</a>
       </div>
 
-      <div className='stats flex gap-9 w-full'>
+      <div className='stats flex gap-10 w-full'>
         <div>
           <h3 className='text-amber-500 font-playfair text-4xl font-bold'>25+</h3>
-          <p className='text-xs'> Années d'artisanat</p>
+          <p className='text-xs'>Années d'artisanat</p>
         </div>
 
         <div>

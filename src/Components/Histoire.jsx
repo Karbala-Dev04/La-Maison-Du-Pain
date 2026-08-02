@@ -21,12 +21,12 @@ export default function Histoire() {
         </div>
         <p className='text-[18px] font-serif'>Fondée à Dakar, Maison du Pain perpétue l'art de la boulangerie française traditionnelle. Nous refusons les farines pré-mélangées et les additifs industriels. 
             De la mise en pâte au façonnage à la main jusqu'à la cuisson sur sole de pierre, chaque étape est maîtrisée avec rigueur.</p>
-        <div className='flex lg:flex-row gap-5 flex-col'>
-            <p className='border rounded-2xl px-4 py-2 justify-between lg:w-[40%] font-semibold'><span className='text-2xl text-amber-600 font-bold'>100%</span> <br /> fait Maison à Dakar</p>
-            <p className='border rounded-2xl px-4 py-2 justify-between lg:w-[40%] font-semibold'><span className='text-2xl text-amber-600 font-bold'>0% </span><br /> Conservateurs industriels</p>
+        <div className='flex lg:flex-row gap-5'>
+            <p className='border border-[#9e9d9db6] rounded-2xl bg-amber-50 px-4 py-2 justify-between lg:w-[40%] font-semibold text-xs'><span className='text-xl text-amber-600 font-bold'>100%</span> <br /> fait Maison à Dakar</p>
+            <p className='border border-[#9e9d9db6] rounded-2xl bg-amber-50 px-4 py-2 justify-between lg:w-[40%] font-semibold text-xs'><span className='text-xl text-amber-600 font-bold'>0% </span><br /> Conservateurs industriels</p>
         </div>
 
-        <button className='lg:w-[30%] w-[50%] bg-amber-950 p-2 text-amber-50 font-semibold rounded-xl'> Découvrir <FaArrowRight className='inline'/></button>
+        <a href='#' className='lg:w-[30%] w-[40%] bg-amber-950 py-3 px-5 text-amber-50 font-semibold rounded-xl font-serif'> Découvrir <FaArrowRight className='inline'/></a>
     </div>
     </div>
   )

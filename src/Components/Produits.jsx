@@ -32,7 +32,7 @@ export default function Produits() {
                 <hr className="w-[90%] mx-auto border-amber-200" />
             <div className='flex flex-row px-3 justify-between items-center py-2'>
                 <p className='font-playfair font-bold text-amber-400'>Prix 300 FCFA</p>
-                <a className='flex flex-row items-center gap-2 text-sm bg-amber-900
+                <a href='#' className='flex flex-row items-center gap-2 text-sm bg-amber-900
                 text-amber-50 rounded-xl px-2 py-1'><LuShoppingBag className='text-amber-300'/>Commander</a>
             </div>
         </div>
@@ -54,7 +54,7 @@ export default function Produits() {
                 <hr className="w-[90%] mx-auto border-amber-200" />
             <div className='flex flex-row px-3 justify-between items-center py-2'>
                 <p className='font-playfair font-bold text-amber-400'>Prix 700 FCFA</p>
-                <a className='flex flex-row items-center gap-2 text-sm bg-amber-900
+                <a href='#' className='flex flex-row items-center gap-2 text-sm bg-amber-900
                 text-amber-50 rounded-xl px-2 py-1'><LuShoppingBag className='text-amber-300'/>Commander</a>
             </div>
         </div>
@@ -63,7 +63,7 @@ export default function Produits() {
         <div className="group card transition-all duration-300 hover:-translate-y-2 hover:shadow-xl cursor-pointer 
             border border-amber-700 overflow-hidden lg:w-75 w-full rounded-2xl">
             <div className="img relative overflow-hidden">
-                <img src={grain} alt="baguette-traditionnelle" className='w-full h-60 object-cover 
+                <img src={grain} alt="pain au sourdough" className='w-full h-60 object-cover 
                 group-hover:scale-110 transition-transform duration-500 ease-in-out' />
                 <p className='absolute bg-amber-900 font-medium text-sm text-amber-50 top-3 rounded-2xl 
                 border border-[#ffffff5e] px-4 py-1 left-3'>Best-Seller</p>
@@ -77,7 +77,7 @@ export default function Produits() {
                 <hr className="w-[90%] mx-auto border-amber-200" />
             <div className='flex flex-row px-3 justify-between items-center py-2'>
                 <p className='font-playfair font-bold text-amber-400'>Prix 600 FCFA</p>
-                <a className='flex flex-row items-center gap-2 text-sm bg-amber-900
+                <a href='#' className='flex flex-row items-center gap-2 text-sm bg-amber-900
                 text-amber-50 rounded-xl px-2 py-1'><LuShoppingBag className='text-amber-300'/>Commander</a>
             </div>
         </div>
@@ -86,7 +86,7 @@ export default function Produits() {
         <div className="group card transition-all duration-300 hover:-translate-y-2 hover:shadow-xl cursor-pointer 
             border border-amber-700 overflow-hidden lg:w-75 w-full rounded-2xl">
             <div className="img relative overflow-hidden">
-                <img src={croissant} alt="baguette-traditionnelle" className=' w-full h-60 object-cover 
+                <img src={croissant} alt="viennoiserie" className=' w-full h-60 object-cover 
                 group-hover:scale-110 transition-transform duration-500 ease-in-out' />
                 <p className='absolute bg-amber-900 font-medium text-sm text-amber-50 top-3 rounded-2xl 
                 border border-[#ffffff5e] px-4 py-1 left-3'>Populaire</p>
@@ -100,7 +100,7 @@ export default function Produits() {
                 <hr className="w-[90%] mx-auto border-amber-200" />
             <div className='flex flex-row px-3 justify-between items-center py-2'>
                 <p className='font-playfair font-bold text-amber-400'>Prix 200 FCFA</p>
-                <a className='flex flex-row items-center gap-2 text-sm bg-amber-900
+                <a href='#' className='flex flex-row items-center gap-2 text-sm bg-amber-900
                 text-amber-50 rounded-xl px-2 py-1'><LuShoppingBag className='text-amber-300'/>Commander</a>
             </div>
         </div>

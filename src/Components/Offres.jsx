@@ -26,7 +26,7 @@ export default function Offres() {
                     <p className='text-amber-50'><IoMdCheckmarkCircleOutline className='inline text-amber-300'/> 1 Croissant Pur Beurre</p>
                     <p className='text-amber-50'><IoMdCheckmarkCircleOutline className='inline text-amber-300'/> 1 Café Expresso ou Allongé</p>
                 </div>
-                <button className='bg-amber-300 px-4 w-full py-2 rounded-xl font-medium'>Profiter de cette offre <FaArrowRight className='inline'/> </button>
+                <a href='#' className='bg-amber-300 text-center px-4 w-full py-2 rounded-xl font-medium'>Profiter de cette offre <FaArrowRight className='inline'/> </a>
             </div>
 
 
@@ -42,7 +42,7 @@ export default function Offres() {
                     <p className='text-amber-50'><IoMdCheckmarkCircleOutline className='inline text-amber-300'/> 4 Baguettes Tradition croustillantes</p>
                     <p className='text-amber-50'><IoMdCheckmarkCircleOutline className='inline text-amber-300'/> 2 Croissants Pur Beurre dorés</p>
                 </div>
-                <button className='bg-amber-300 px-4 w-full py-2 rounded-xl font-medium'>Profiter de cette offre <FaArrowRight className='inline'/> </button>
+                <a href='#' className='bg-amber-300 text-center px-4 w-full py-2 rounded-xl font-medium'>Profiter de cette offre <FaArrowRight className='inline'/> </a>
             </div>
 
 
@@ -58,7 +58,7 @@ export default function Offres() {
                     <p className='text-amber-50'><IoMdCheckmarkCircleOutline className='inline text-amber-300'/> 1 Sandwich Poulet ou Thon au choix</p>
                     <p className='text-amber-50'><IoMdCheckmarkCircleOutline className='inline text-amber-300'/> 1 Jus Naturel 33cl (Bissap ou Bouye)</p>
                 </div>
-                <button className='bg-amber-300 px-4 w-full py-2 rounded-xl font-medium'>Profiter de cette offre <FaArrowRight className='inline'/> </button>
+                <a href='#' className='bg-amber-300 text-center px-4 w-full py-2 rounded-xl font-medium'>Profiter de cette offre <FaArrowRight className='inline'/> </a>
             </div>
 
         </div>

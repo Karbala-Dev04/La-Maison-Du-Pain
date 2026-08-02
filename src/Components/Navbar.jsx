@@ -36,7 +36,7 @@ export default function Navbar() {
             <li><a href="#" className='link'>Contact</a></li>
         </ul>
 
-        <button className='rounded-full bg-amber-950 px-5 py-1.5 text-amber-100 font-semibold w-full lg:w-auto'><a href="#">Commander</a></button>
+        <a href='#' className='rounded-full bg-amber-950 px-5 py-2 text-amber-50 font-semibold w-full lg:w-auto'>Commander</a>
         </div>
 
     </nav>
