@@ -8,16 +8,16 @@ export default function Hero() {
   return (
     <section className='hero'>
 
-    <div className="max-w-2xl m-auto py-10 px-7">
+    <div className="container max-w-2xl m-auto py-10 px-7">
 
-      <p className='text-[#d18006] border font-serif border-amber-3n00 mb-8 bg-[#ffffffc0] max-w-95 lg:px-7 
+      <p className='text-[#d18006] border text-center font-serif border-amber-300 mb-8 bg-[#ffffffc0] max-w-95 lg:px-7 
       rounded-2xl'> <WiStars className='text-2xl inline' /> ARTISAN BOULANGER DEPUIS 1998</p>
       <h2 className='text-5xl lg:text-7xl mb-8 font-playfair font-bold'>
       Le goût authentique du <span className='text-[#a87507] italic'>pain frais</span></h2>
       <p className=' max-w-xl text-xl mb-7'>Chaque matin à Dakar, nos boulangers pétrissent à la main des farines nobles 
         pour vous offrir baguettes croustillantes, viennoiseries dorées et pâtisseries d'exception.</p>
 
-      <div className='flex flex-wrap items-center gap-4 pt-2 mb-6'>
+      <div className='mb-6 flex gap-3 flex-wrap'>
       <a href='#' className='bg-amber-900 rounded-full font-semibold px-4 py-3 cursor-pointer text-amber-50'>Commander maintenant <AiOutlineArrowRight className='text-[15px] inline'/></a>
       <a href='#' className='bg-transparent rounded-full border-2 transition-all duration-500 ease-in-out border-[#ffffff34]  px-4 py-3 font-semibold
       hover:bg-[#ffffff4f] hover:border-amber-500 cursor-pointer'>Voir nos produits</a>

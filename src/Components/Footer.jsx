@@ -11,7 +11,8 @@ export default function Footer() {
   return (
   <div className='bg-amber-950'>
       <div className='flex lg:flex-row flex-col gap-10 justify-around p-10'>
-        <div className='flex gap-7 flex-col w-70'>
+        <div className='flex flex-wrap gap-5'>
+            <div className='flex gap-7 flex-col w-70'>
             <div className='flex items-center gap-3'>
             <img src={logo} alt="logo" className='w-8 h-8 rounded-full object-cover' />
             <h2 className='text-xl text-amber-50 font-medium font-playfair'>Maison du Pain</h2>
@@ -35,9 +36,11 @@ export default function Footer() {
             <a href="#" className='text-sm hover:text-amber-200'>Contact</a>
             </div>
         </div>
+        </div>
 
 
-        <div className='flex flex-col gap-3'>
+        <div className='flex flex-wrap gap-5'>
+            <div className='flex flex-col gap-3'>
             <p className='font-bold font-playfair text-amber-50 mb-2'>Horaires</p>
             <p className='text-amber-50 text-sm'><TbClockHour8 className='inline text-xl text-amber-300'/> Lundi-Dimanche</p>
             <p className='text-amber-50 mx-6 text-sm'>06h00-22h00</p>
@@ -45,14 +48,12 @@ export default function Footer() {
             <p className='text-amber-300 text-sm mx-6 font-mono'>Ouverts les jours de féries</p>
         </div>
 
-
-
         <div className='flex flex-col gap-3'>
             <p className='font-bold font-playfair text-amber-50 mb-2'>Contact</p>
-            
             <p className='text-amber-50 font-mono'><IoLocationOutline className='inline text-xl text-amber-300 '/> Fass, Dakar, Sénégal</p>
             <p className='text-amber-50 text-sm font-mono'><IoCallOutline className='inline text-xl text-amber-300 '/> +221 70 727 79 08</p>
             <p className='text-amber-50 text-sm font-mono'><IoMailOutline className='inline text-xl text-amber-300 '/> maisondupain@gmail.com</p>
+        </div>
         </div>
     </div>
     <hr className="lg:w-200 mx-auto border-[#ffedc649]" />
