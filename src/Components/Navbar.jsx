@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className='flex gap-3'>
             <img src={logo} alt="logo" className='w-12 rounded-full object-cover' />
             <div>
-            <h2 className='text-xl font-bold'>Maison du Pain</h2>
+            <h2 className='text-xl font-bold font-playfair'>Maison du Pain</h2>
             <p className='text-xs text-amber-400'>Boulangerie Artisanale</p>
             </div>
         </div>

@@ -6,6 +6,7 @@ import Produits from './Components/Produits'
 import Offres from './Components/Offres'
 import Avis from './Components/Avis'
 import Histoire from './Components/Histoire'
+import Footer from './Components/Footer'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
     <Offres/>
     <Histoire/>
     <Avis/>
+    <Footer/>
     </>
   )
 }

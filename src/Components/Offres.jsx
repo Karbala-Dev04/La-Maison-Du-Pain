@@ -12,12 +12,12 @@ export default function Offres() {
             <p className='text-amber-100'>Economisez sur vos petits dejeuners, vos pauses midi et vos commandes en famille.</p>
         </div>
 
-        <div className='flex lg:flex-row gap-5 justify-center items-center flex-wrap px-5 py-5'>
+        <div className='flex lg:flex-row gap-5 justify-center items-center flex-wrap p-5'>
 
             <div className='border-amber-900 border lg:w-100 w-full rounded-2xl p-5 flex flex-col gap-5 hover:border-amber-300 
             hover:-translate-y-2 transition-all duration-500 ease-in-out'>
                 <div className='flex justify-between items-center'>
-                    <p className='bg-amber-500 px-2 rounded-2xl  font-bold text-amber-950'>Economisez 200 FCFA</p>
+                    <p className='bg-amber-500 px-2 rounded-2xl font-bold text-amber-950'>Economisez 200 FCFA</p>
                     <p className='text-amber-50 font-bold text-2xl'>1300 FCFA</p>
                 </div>
                     <p className='text-amber-50 text-2xl font-serif font-bold'>Formule Petit Dejeuner</p>
